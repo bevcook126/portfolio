@@ -8,7 +8,9 @@ export default function Resume() {
             <div className="resume-card">
                 <h2>Software Engineering Fellow - General Assembly, Remote</h2>
                 <ul>
-                    <li></li>
+                    <li>Created full MERN Stack applications</li>
+                    <li>Implemented full CRUD</li>
+                    <li>Gained proficiency in JavaScript, Python, CSS, and HTML</li>
                 </ul>
             </div>
             <div className="resume-card">
