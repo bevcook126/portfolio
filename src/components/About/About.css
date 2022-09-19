@@ -1,0 +1,12 @@
+.aboutme {
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.aboutme > img {
+    height: 20rem;
+    border-radius: 1rem;
+    margin-right: 2rem;
+}
