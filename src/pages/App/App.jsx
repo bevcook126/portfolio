@@ -1,4 +1,3 @@
-import NavBar from '../../components/NavBar/NavBar';
 import About from '../../components/About/About';
 import Resume from '../../components/Resume/Resume';
 import Projects from '../../components/Projects/Projects';
@@ -11,7 +10,6 @@ export default function App() {
     <main className="App">
       {
         <>
-          <NavBar/>
           <About/>
           <Resume/>
           <Projects/>

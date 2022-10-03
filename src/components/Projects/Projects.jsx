@@ -5,14 +5,14 @@ export default function Projects() {
         <>
             <h1 id="projects">PROJECTS</h1>
             <div className="projects">
-                <a target="_blank" href="https://bevcook126.github.io/connect4project/">
+                <a href="https://bevcook126.github.io/connect4project/">
                     <div className="project-card" style={{backgroundImage: `url("https://i.imgur.com/k4HqLKF.png")` }}>
                         <h2>CONNECT 4</h2>
                         <p>A fun and campy pizza-themed 2-player browser game</p>
                         <p>Click to launch!</p>
                     </div>
                 </a>
-            <a target="_blank" href="https://oreo-fan-club.herokuapp.com/">
+            <a href="https://oreo-fan-club.herokuapp.com/">
                 <div className="project-card"  style={{backgroundImage: `url("https://i.imgur.com/Q55hEjk.png")` }}>
                     <h2>OREO FAN CLUB</h2>
                     <p>A social media site centered around the quest for Milk's Favorite Cookie</p>
@@ -20,7 +20,7 @@ export default function Projects() {
                     <p>Click to launch!</p>
                 </div>
             </a>
-            <a target="_blank" href="https://impasta-p3.herokuapp.com/">
+            <a href="https://impasta-p3.herokuapp.com/">
                 <div className="project-card"  style={{backgroundImage: `url("https://i.imgur.com/nBquvAB.png")` }}>
                     <h2>IMPASTA</h2>
                     <p>An app designed to find "dupe recipes" of restaurant dishes (a group collaboration)</p>
@@ -28,7 +28,7 @@ export default function Projects() {
                     <p>Click to launch!</p>
                 </div>
             </a>
-            <a target="_blank" href="https://smart-chart-seating.herokuapp.com/">
+            <a href="https://smart-chart-seating.herokuapp.com/">
                 <div className="project-card"  style={{backgroundImage: `url("https://i.imgur.com/blxTuqF.png")` }}>
                     <h2>SMART CHART</h2>
                     <p>A seating chart tool designed for teachers</p>
