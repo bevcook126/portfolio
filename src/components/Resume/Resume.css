@@ -5,13 +5,9 @@
 }
 
 .resume-card {
-    border: solid black;
-    background-color: #D2DAFF;
     color: transparent;
-    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bded83c2-9666-4913-afaf-29ae29e5c24e/defaezm-9dfaea32-8df7-458d-8cbf-a85deba4c0d9.png/v1/fill/w_1024,h_1583,q_80,strp/playing_card_back_by_feivelyn_defaezm-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU4MyIsInBhdGgiOiJcL2ZcL2JkZWQ4M2MyLTk2NjYtNDkxMy1hZmFmLTI5YWUyOWU1YzI0ZVwvZGVmYWV6bS05ZGZhZWEzMi04ZGY3LTQ1OGQtOGNiZi1hODVkZWJhNGMwZDkucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.-03AHmNDd2ihmIExHIgYsDG3wKdNBsfXHs8M04vkqpk);
-    background-size: cover;
     border-radius: 1rem;
-    width: 15.8rem
+    width: 16.1rem
 }
 
 .resume-card:hover {
@@ -21,4 +17,24 @@
 
 ul {
     text-align: left;
+}
+
+#ga {
+    background: url(https://i.imgur.com/2Ju9Llh.png);
+    background-size: cover;
+}
+
+#knd {
+    background: url(https://i.imgur.com/jgiPQMu.png);
+    background-size: cover;
+}
+
+#rfa {
+    background: url(https://i.imgur.com/LqgbJdu.png);
+    background-size: cover;
+}
+
+#cdrc {
+    background: url(https://i.imgur.com/UjQZwff.png);
+    background-size: cover;
 }

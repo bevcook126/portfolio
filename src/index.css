@@ -35,8 +35,8 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #EEF1FF;
-  font-family: 'Anonymous Pro', monospace;
+  background: url(https://textures.world/wp-content/uploads/2018/10/19-White-Paper-Different-Texture-Types-A4-Ripple-1.jpg);
+  font-family: 'Patrick Hand', cursive;
   padding: 2vmin;
   height: 100vh;
 }
@@ -167,6 +167,3 @@ button[type="submit"] {
   margin: 1vmin 0 0;
 }
 
-h1 {
-  color: #B1B2FF;
-}
