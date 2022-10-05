@@ -10,7 +10,6 @@ export default function Resume() {
                     <li>Created full MERN Stack applications</li>
                     <li>Implemented full CRUD</li>
                     <li>Gained proficiency in JavaScript, Python, CSS, and HTML</li>
-                    <li></li>
                 </ul>
             </div>
             <div className="resume-card" id="knd">
