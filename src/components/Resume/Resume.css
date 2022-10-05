@@ -6,8 +6,8 @@
 
 .resume-card {
     color: transparent;
-    border-radius: 1rem;
-    width: 16.1rem
+    width: 15rem;
+    height: 21rem;
 }
 
 .resume-card:hover {
@@ -24,8 +24,18 @@ ul {
     background-size: cover;
 }
 
+#ga:hover {
+    background: url(https://i.imgur.com/SRSV1nv.png);
+    background-size: cover;
+}
+
 #knd {
     background: url(https://i.imgur.com/jgiPQMu.png);
+    background-size: cover;
+}
+
+#knd:hover {
+    background: url(https://i.imgur.com/I9jPO9R.png);
     background-size: cover;
 }
 
@@ -34,7 +44,25 @@ ul {
     background-size: cover;
 }
 
+#rfa:hover {
+    background: url(https://i.imgur.com/AHv77oG.png);
+    background-size: cover;
+}
+
 #cdrc {
     background: url(https://i.imgur.com/UjQZwff.png);
     background-size: cover;
+}
+
+#cdrc:hover {
+    background: url(https://i.imgur.com/DNvwhi3.png);
+    background-size: cover;
+}
+
+#resume {
+    width: 15rem;
+}
+
+ul {
+    padding: .5rem 2rem 0 3.3rem;
 }

@@ -1,7 +1,9 @@
+import './Contact.css';
+
 export default function Contact() {
     return (
         <>
-            <h1 id="contact">CONTACT</h1>
+            <img id="contact" src="https://i.imgur.com/IlvUqej.png" alt="CONTACT"/>
             <h3>email: bevcook126@gmail.com</h3>
             <h3>phone: 925-788-9000</h3>
             <h3>location: SF Bay Area, CA</h3>

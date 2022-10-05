@@ -3,7 +3,7 @@ import './Projects.css';
 export default function Projects() {
     return (
         <>
-            <h1 id="projects">PROJECTS</h1>
+            <img id="projects" src="https://i.imgur.com/G9nNFOD.png" alt="PROJECTS"/>
             <div className="projects">
                 <a href="https://bevcook126.github.io/connect4project/">
                     <div className="project-card" style={{backgroundImage: `url("https://i.imgur.com/k4HqLKF.png")` }}>
