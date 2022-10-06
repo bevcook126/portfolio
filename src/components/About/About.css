@@ -1,8 +1,8 @@
 .aboutme {
     display: flex;
     align-items: center;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 .aboutme > img {
@@ -15,12 +15,13 @@
 }
 
 .aboutme > p {
-    font-size: 1.7vw;
+    font-size: 2vw;
     width: 70vw;
 }
 
 #contact {
     margin-top: 0;
+    font-size: 3vw;
 }
 
 #contact > a {
