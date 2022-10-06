@@ -19,6 +19,7 @@ ul {
 
 .flip-card {
     background-color: transparent;
+    background-repeat: no-repeat;
     perspective: 1000px; 
     width: 20vw;
     height: 28vw;
