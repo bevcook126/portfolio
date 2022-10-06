@@ -3,7 +3,7 @@ import './Resume.css';
 export default function Resume() {
     return (
         <>
-        <img id="resume" src="https://i.imgur.com/T6a0HbF.png" alt="RESUME"/>
+        <img id="resume" src="https://i.imgur.com/QexmGOM.png" alt="RESUME"/>
         <div className="cards">
             <div className="resume-card" id="ga">
                 <ul>

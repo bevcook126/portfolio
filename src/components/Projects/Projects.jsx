@@ -3,40 +3,22 @@ import './Projects.css';
 export default function Projects() {
     return (
         <>
-            <img id="projects" src="https://i.imgur.com/G9nNFOD.png" alt="PROJECTS"/>
-            <div className="projects">
-                <a href="https://bevcook126.github.io/connect4project/">
-                    <div className="project-card" style={{backgroundImage: `url("https://i.imgur.com/k4HqLKF.png")` }}>
-                        <h2>CONNECT 4</h2>
-                        <p>A fun and campy pizza-themed 2-player browser game</p>
-                        <p>Click to launch!</p>
-                    </div>
-                </a>
-            <a href="https://oreo-fan-club.herokuapp.com/">
-                <div className="project-card"  style={{backgroundImage: `url("https://i.imgur.com/Q55hEjk.png")` }}>
-                    <h2>OREO FAN CLUB</h2>
-                    <p>A social media site centered around the quest for Milk's Favorite Cookie</p>
-                    <p>JavaScript | Express | Mongoose | Node.js | CSS | HTML</p>
-                    <p>Click to launch!</p>
+            <img id="projects" src="https://i.imgur.com/FaDcTCO.png" alt="PROJECTS"/>
+                <div className="projects">
+                    <a href="https://smart-chart-seating.herokuapp.com/">
+                        <img className="img" id="smartchart" src="https://i.imgur.com/PkmErzP.png" alt="SMART CHART: a seating chart tool designed for teachers. Teachers can upload their rosters and visualize seating arrangements. Made using JavaScript, React, Express, CSS, HTML, Mongoose, Node.js, and Express."/>
+                    </a>
+                    <a href="https://bevcook126.github.io/connect4project/">
+                        <img className="img" id="connect4" src="https://i.imgur.com/KhaeJx4.png" alt="CONNECT 4: a fun and campy 2-player browser game with a silly pizza theme! Made using JavaScript, CSS, and HTML."/>
+                    </a>
+                    <a href="https://oreo-fan-club.herokuapp.com/">
+                        <img className="img" id="oreo" src="https://i.imgur.com/DsxzVxH.png" alt="OREO FAN CLUB: a social site for fans of Milk's Favorite Cookie! Fans can log in to this full-CRUD Express app via Google OAuth and browse international oreo flavors."/>    
+                    </a>
+                    <a href="https://impasta-p3.herokuapp.com/">
+                        <img className="img" id="impasta" src="https://i.imgur.com/GWZCaeG.png" alt="A group collaboration with 2 other developers! A recipe app for 'dupe recipes' of restaurant dishes. Made using Pythgon, Django, Mongoose, CSS, HTML, and Yelp API."/>
+                    </a>
                 </div>
-            </a>
-            <a href="https://impasta-p3.herokuapp.com/">
-                <div className="project-card"  style={{backgroundImage: `url("https://i.imgur.com/nBquvAB.png")` }}>
-                    <h2>IMPASTA</h2>
-                    <p>An app designed to find "dupe recipes" of restaurant dishes (a group collaboration)</p>
-                    <p>Python | Django | Mongoose | CSS | HTML</p>
-                    <p>Click to launch!</p>
-                </div>
-            </a>
-            <a href="https://smart-chart-seating.herokuapp.com/">
-                <div className="project-card"  style={{backgroundImage: `url("https://i.imgur.com/blxTuqF.png")` }}>
-                    <h2>SMART CHART</h2>
-                    <p>A seating chart tool designed for teachers</p>
-                    <p>JavaScript | React | Express | Mongoose | Node.js | CSS | HTML</p>
-                    <p>Click to launch!</p>
-                </div>
-            </a>
-            </div>
+                <img id="bevthedev" src="https://i.imgur.com/owmVnir.png" alt="Bev the Dev"/>
         </>
     )
 }
