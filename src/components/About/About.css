@@ -14,3 +14,7 @@
 #name {
     width: 60rem;
 }
+
+.aboutme > p {
+    font-size: 1.3rem;
+}
