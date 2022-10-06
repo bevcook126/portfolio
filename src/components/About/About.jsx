@@ -7,7 +7,7 @@ export default function About() {
         <h1>bevcook126@gmail.com |&nbsp;
             925-788-9000 |&nbsp;
             SF Bay Area, CA |&nbsp;
-            <a href="https://www.linkedin.com/in/beverly-cook/">LinkedIn |&nbsp;</a>
+            <a href="https://www.linkedin.com/in/beverly-cook/">LinkedIn</a> |&nbsp;
             <a href="https://github.com/bevcook126">Github </a>
         </h1>
         <div className="aboutme">
