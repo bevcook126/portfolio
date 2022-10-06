@@ -19,45 +19,6 @@ ul {
     text-align: left;
 }
 
-#ga {
-    background: url(https://i.imgur.com/2Ju9Llh.png);
-    background-size: cover;
-}
-
-#ga:hover {
-    background: url(https://i.imgur.com/SRSV1nv.png);
-    background-size: cover;
-}
-
-#knd {
-    background: url(https://i.imgur.com/jgiPQMu.png);
-    background-size: cover;
-}
-
-#knd:hover {
-    background: url(https://i.imgur.com/I9jPO9R.png);
-    background-size: cover;
-}
-
-#rfa {
-    background: url(https://i.imgur.com/LqgbJdu.png);
-    background-size: cover;
-}
-
-#rfa:hover {
-    background: url(https://i.imgur.com/AHv77oG.png);
-    background-size: cover;
-}
-
-#cdrc {
-    background: url(https://i.imgur.com/152gJsf.png);
-    background-size: cover;
-}
-
-#cdrc:hover {
-    background: url(https://i.imgur.com/DNvwhi3.png);
-    background-size: cover;
-}
 
 #resume {
     width: 17rem;
@@ -66,3 +27,47 @@ ul {
 ul {
     padding: .5rem 2rem 0 3.3rem;
 }
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+    width: 15rem;
+    height: 21rem;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-size: cover;
+  }
+  
+  .flip-card-back {
+    transform: rotateY(180deg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
