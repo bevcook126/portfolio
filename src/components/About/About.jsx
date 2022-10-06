@@ -4,7 +4,7 @@ export default function About() {
     return (
         <>
         <img id="name" src="https://i.imgur.com/fHiwx7c.png" alt="Beverly Cook"/>
-        <h1>bevcook126@gmail.com |&nbsp;
+        <h1 id="contact">bevcook126@gmail.com |&nbsp;
             925-788-9000 |&nbsp;
             SF Bay Area, CA |&nbsp;
             <a href="https://www.linkedin.com/in/beverly-cook/">LinkedIn</a> |&nbsp;

@@ -11,13 +11,18 @@ a {
 }
 
 #projects {
-    width: 20rem;
-    margin-top: 4rem;
+    width: 35vw;
+    margin-top: 4vw;
 }
 
 .img {
-    width: 35rem;
-    margin: -1rem;
+    width: 50vw;
+    margin: -1vw;
+    transition: transform .5s;
+}
+
+.img:hover {
+    transform: scale(1.1);
 }
 
 #sc {
@@ -33,3 +38,12 @@ a {
     margin-top: 3rem;
     width: 10rem;
 }
+
+#projarrow {
+    width: 10vw;
+    margin-right: -3vw;
+}
+
+/* @media only screen and (min-width: 768) {
+    
+} */

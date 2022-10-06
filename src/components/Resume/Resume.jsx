@@ -4,6 +4,7 @@ export default function Resume() {
     return (
         <>
             <img id="resume" src="https://i.imgur.com/QexmGOM.png" alt="RESUME"/>
+            <img id="resarrow" src="https://i.imgur.com/BBbEIzb.png" alt="arrow"/>
             <div className="cards">
                 <div className="flip-card">
                     <div className="flip-card-inner">

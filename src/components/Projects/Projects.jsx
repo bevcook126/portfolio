@@ -3,6 +3,7 @@ import './Projects.css';
 export default function Projects() {
     return (
         <>
+            <img id="projarrow" src="https://i.imgur.com/O2eUcDj.png" alt="arrow"/>
             <img id="projects" src="https://i.imgur.com/FaDcTCO.png" alt="PROJECTS"/>
                 <div className="projects">
                     <a href="https://smart-chart-seating.herokuapp.com/">

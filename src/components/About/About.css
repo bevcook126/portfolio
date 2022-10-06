@@ -6,14 +6,29 @@
 }
 
 .aboutme > img {
-    height: 25rem;
-    margin-right: 2rem;
+    width: 20vw;
+    margin-right: 2vw;
 }
 
 #name {
-    width: 60rem;
+    width: 90vw;
 }
 
 .aboutme > p {
-    font-size: 1.3rem;
+    font-size: 1.7vw;
+    width: 70vw;
 }
+
+#contact {
+    margin-top: 0;
+}
+
+#contact > a {
+    color: brown;
+}
+
+/* @media screen and (max-width: 768) {
+    .aboutme {
+        
+    }
+} */

@@ -5,38 +5,25 @@
     margin: auto;
 }
 
-.resume-card {
-    color: transparent;
-    width: 15rem;
-    height: 21rem;
-}
-
-.resume-card:hover {
-    color: black;
-    background: white;
-}
-
 ul {
     text-align: left;
+    font-size: 1.25vw;
+    padding: .5vw 2vw 0 4vw;
+
 }
 
 
 #resume {
-    width: 17rem;
-}
-
-ul {
-    padding: .5rem 2rem 0 3.3rem;
+    width: 28vw;
 }
 
 .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 200px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; 
-    width: 15rem;
-    height: 21rem;
+    width: 20vw;
+    height: 28vw;
+    margin: auto;
   }
   
   .flip-card-inner {
@@ -73,6 +60,12 @@ ul {
     align-items: center;
   }
 
-@media only screen and (min-width: 768) {
-    
-}
+  #resarrow {
+    width: 3vw;
+  }
+
+/* @media only screen and (max-width: 768) {
+    .cards {
+        grid-template-columns: auto;
+    }
+} */
