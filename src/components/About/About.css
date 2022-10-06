@@ -1,8 +1,7 @@
 .aboutme {
     display: flex;
     align-items: center;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin: 2vw 10vw 1vw 10vw;
 }
 
 .aboutme > img {
@@ -21,7 +20,9 @@
 
 #contact {
     margin-top: 0;
-    font-size: 3vw;
+    font-size: 2.5vw;
+    width: 90vw;
+    margin: auto;
 }
 
 #contact > a {
